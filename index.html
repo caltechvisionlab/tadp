@@ -256,10 +256,10 @@
             <div class="column is-four-fifths">
                 <div class="hero-body">
                     <!-- Your image here -->
-                    <img src="static/images/tadp_fig1_v2.png" alt="MY ALT TEXT"/>
+                    <img src="static/images/tadp_fig1_v3.png" alt="MY ALT TEXT"/>
                     <h2 class="subtitle has-text-justified">
                         <b>Text-image/domain alignment for guided diffusion perception.</b> We present a framework called
-                        <b>T</b>ext-<b>A</b>lligned <b>D</b>iffusion <b>P</b>erception (TADP) to use image captions to guide a
+                        <b>T</b>ext-<b>A</b>ligned <b>D</b>iffusion <b>P</b>erception (TADP) to use image captions to guide a
                         diffusion-pretrained vision model for tasks like depth estimation, semantic segmentation, and object
                         detection. For cross-domain settings, we demonstrate how to modify captions to improve performance on
                         the
@@ -301,19 +301,19 @@
                         investigate these
                         questions and find that automatically generated captions can improve text-image alignment and
                         significantly
-                        enhance a model's cross-attention maps, leading to better perceptual performance. Our approach
+                        enhance a model's cross-attention maps, leading to better perceptual performance. <b>Our approach
                         improves upon
                         the current SOTA in diffusion-based semantic segmentation for ADE20K, improving 1.7 mIoU (+3.2%)
                         and the
-                        current overall SOTA in depth estimation by 0.2 RMSE (+8%) on NYUv2.<br><br>
+                        current overall SOTA in depth estimation by 0.2 RMSE (+8%) on NYUv2.</b><br><br>
 
                         Additionally, we find that captions help in cross-domain adaptation when we align text prompts
                         to the target
-                        domain. Our object detection method, trained on Pascal VOC2012, achieves SOTA results on
+                        domain. <b>Our object detection method, trained on Pascal VOC2012, achieves SOTA results on
                         Watercolor2K and
                         Comic2K. Our segmentation method, trained on Cityscapes, achieves SOTA results on the Dark
                         Zurich and
-                        Nighttime Driving benchmarks.
+                        Nighttime Driving benchmarks.</b>
                     </p>
                 </div>
             </div>
@@ -697,12 +697,10 @@
         <h2 class="title">BibTeX</h2>
         <pre><code>
 @misc{kondapaneni2023textimage,
-      title={Text-image Alignment for Diffusion-based Perception},
-      author={Neehar Kondapaneni and Markus Marks and Manuel Knott and Rogério Guimarães and Pietro Perona},
-      year={2023},
-      eprint={2310.00031},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      title = {Text-image Alignment for Diffusion-based Perception},
+	  journal = {arXiv preprint arXiv:2310.00031},
+	  author = {Kondapaneni, Neehar and Marks, Markus and Knott, Manuel and Guimarães, Rogério and Perona, Pietro},
+	  year = {2023}
 }
         </code></pre>
     </div>
